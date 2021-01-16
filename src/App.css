@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+label {
+
+   font-size: calc(6px + 2vmin);
+   vertical-align: bottom;
+}
+p {
+
+   vertical-align: bottom;
+}
+input {
+    max-height: 18pt;
+    margin-right:2em;
+    margin-left: 1em;
+    max-width: 6em;
+}
+input:not[type="button"]{
+   font-size: calc(10px + 2vmin);
+}
+input#rewards{
+    font-weight: bold;
+    color: darkgreen;
+}
+#newItem, #newItem input, #newItem label {
+    display: -webkit-inline-box;
+}
+h1,h3{
+    font-weight: lighter;
+}
+#history, #summary{
+   width:100%;
+}
+#history table,form{
+   width:90%;
+}
+#summary table{
+  width:85%;
+  margin-left:7.5%;
+}
+#summary table, #summary td, #summary th{
+   border: 1px solid lightgray;
+}
+#csv-descript{
+  font-size: 11pt;
+  margin-bottom: 0;
+}
+#csv-file{
+  max-width:100%;
+  font-size: 12px;
+}
